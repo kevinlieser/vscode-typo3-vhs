@@ -1,0 +1,1549 @@
+{
+  "{v:namespace()}": {
+    "prefix": "v:namespace()",
+    "body": [
+      "xmlns:v=\"http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers\""
+    ],
+    "description": "TYPO3 VHS | namespace"
+  },
+  "{v:namespace()} legacy": {
+    "prefix": "v:namespace() legacy",
+    "body": [
+      "{namespace v=FluidTYPO3\\Vhs\\ViewHelpers}"
+    ],
+    "description": "TYPO3 VHS | legacy namespace"
+  },
+  "{v:asset()}": {
+    "prefix": "v:asset()",
+    "body": [
+      "v:asset()"
+    ],
+    "description": "TYPO3 VHS | {v:asset()}"
+  },
+  "{v:asset.prefetch()}": {
+    "prefix": "v:asset.prefetch()",
+    "body": [
+      "v:asset.prefetch(domains:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:asset.prefetch()}"
+  },
+  "{v:asset.script()}": {
+    "prefix": "v:asset.script()",
+    "body": [
+      "v:asset.script()"
+    ],
+    "description": "TYPO3 VHS | {v:asset.script()}"
+  },
+  "{v:asset.style()}": {
+    "prefix": "v:asset.style()",
+    "body": [
+      "v:asset.style()"
+    ],
+    "description": "TYPO3 VHS | {v:asset.style()}"
+  },
+  "{v:call()}": {
+    "prefix": "v:call()",
+    "body": [
+      "v:call(method:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:call()}"
+  },
+  "{v:condition.context.isBackend()}": {
+    "prefix": "v:condition.context.isBackend()",
+    "body": [
+      "v:condition.context.isBackend()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isBackend()}"
+  },
+  "{v:condition.context.isCli()}": {
+    "prefix": "v:condition.context.isCli()",
+    "body": [
+      "v:condition.context.isCli()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isCli()}"
+  },
+  "{v:condition.context.isDevelopment()}": {
+    "prefix": "v:condition.context.isDevelopment()",
+    "body": [
+      "v:condition.context.isDevelopment()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isDevelopment()}"
+  },
+  "{v:condition.context.isFrontend()}": {
+    "prefix": "v:condition.context.isFrontend()",
+    "body": [
+      "v:condition.context.isFrontend()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isFrontend()}"
+  },
+  "{v:condition.context.isProduction()}": {
+    "prefix": "v:condition.context.isProduction()",
+    "body": [
+      "v:condition.context.isProduction()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isProduction()}"
+  },
+  "{v:condition.context.isTesting()}": {
+    "prefix": "v:condition.context.isTesting()",
+    "body": [
+      "v:condition.context.isTesting()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.context.isTesting()}"
+  },
+  "{v:condition.form.hasValidator()}": {
+    "prefix": "v:condition.form.hasValidator()",
+    "body": [
+      "v:condition.form.hasValidator(property:$1, validatorName:$2, object:$3)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.form.hasValidator()}"
+  },
+  "{v:condition.form.isRequired()}": {
+    "prefix": "v:condition.form.isRequired()",
+    "body": [
+      "v:condition.form.isRequired(property:$1, validatorName:$2, object:$3)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.form.isRequired()}"
+  },
+  "{v:condition.iterator.contains()}": {
+    "prefix": "v:condition.iterator.contains()",
+    "body": [
+      "v:condition.iterator.contains(needle:$1, haystack:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.iterator.contains()}"
+  },
+  "{v:condition.page.hasSubpages()}": {
+    "prefix": "v:condition.page.hasSubpages()",
+    "body": [
+      "v:condition.page.hasSubpages()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.page.hasSubpages()}"
+  },
+  "{v:condition.page.isChildPage()}": {
+    "prefix": "v:condition.page.isChildPage()",
+    "body": [
+      "v:condition.page.isChildPage()"
+    ],
+    "description": "TYPO3 VHS | {v:condition.page.isChildPage()}"
+  },
+  "{v:condition.page.isLanguage()}": {
+    "prefix": "v:condition.page.isLanguage()",
+    "body": [
+      "v:condition.page.isLanguage(language:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.page.isLanguage()}"
+  },
+  "{v:condition.string.contains()}": {
+    "prefix": "v:condition.string.contains()",
+    "body": [
+      "v:condition.string.contains(haystack:$1, needle:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.string.contains()}"
+  },
+  "{v:condition.string.isLowercase()}": {
+    "prefix": "v:condition.string.isLowercase()",
+    "body": [
+      "v:condition.string.isLowercase(string:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.string.isLowercase()}"
+  },
+  "{v:condition.string.isNumeric()}": {
+    "prefix": "v:condition.string.isNumeric()",
+    "body": [
+      "v:condition.string.isNumeric(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.string.isNumeric()}"
+  },
+  "{v:condition.string.isUppercase()}": {
+    "prefix": "v:condition.string.isUppercase()",
+    "body": [
+      "v:condition.string.isUppercase(string:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.string.isUppercase()}"
+  },
+  "{v:condition.type.isArray()}": {
+    "prefix": "v:condition.type.isArray()",
+    "body": [
+      "v:condition.type.isArray(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isArray()}"
+  },
+  "{v:condition.type.isBoolean()}": {
+    "prefix": "v:condition.type.isBoolean()",
+    "body": [
+      "v:condition.type.isBoolean(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isBoolean()}"
+  },
+  "{v:condition.type.isDomainObject()}": {
+    "prefix": "v:condition.type.isDomainObject()",
+    "body": [
+      "v:condition.type.isDomainObject(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isDomainObject()}"
+  },
+  "{v:condition.type.isFloat()}": {
+    "prefix": "v:condition.type.isFloat()",
+    "body": [
+      "v:condition.type.isFloat(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isFloat()}"
+  },
+  "{v:condition.type.isInstanceOf()}": {
+    "prefix": "v:condition.type.isInstanceOf()",
+    "body": [
+      "v:condition.type.isInstanceOf(value:$1, class:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isInstanceOf()}"
+  },
+  "{v:condition.type.isInteger()}": {
+    "prefix": "v:condition.type.isInteger()",
+    "body": [
+      "v:condition.type.isInteger(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isInteger()}"
+  },
+  "{v:condition.type.isObject()}": {
+    "prefix": "v:condition.type.isObject()",
+    "body": [
+      "v:condition.type.isObject(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isObject()}"
+  },
+  "{v:condition.type.isQueryResult()}": {
+    "prefix": "v:condition.type.isQueryResult()",
+    "body": [
+      "v:condition.type.isQueryResult(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isQueryResult()}"
+  },
+  "{v:condition.type.isString()}": {
+    "prefix": "v:condition.type.isString()",
+    "body": [
+      "v:condition.type.isString(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isString()}"
+  },
+  "{v:condition.type.isTraversable()}": {
+    "prefix": "v:condition.type.isTraversable()",
+    "body": [
+      "v:condition.type.isTraversable(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.type.isTraversable()}"
+  },
+  "{v:condition.variable.isNull()}": {
+    "prefix": "v:condition.variable.isNull()",
+    "body": [
+      "v:condition.variable.isNull(value:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.variable.isNull()}"
+  },
+  "{v:condition.variable.isset()}": {
+    "prefix": "v:condition.variable.isset()",
+    "body": [
+      "v:condition.variable.isset(name:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:condition.variable.isset()}"
+  },
+  "{v:const()}": {
+    "prefix": "v:const()",
+    "body": [
+      "v:const()"
+    ],
+    "description": "TYPO3 VHS | {v:const()}"
+  },
+  "{v:content.get()}": {
+    "prefix": "v:content.get()",
+    "body": [
+      "v:content.get()"
+    ],
+    "description": "TYPO3 VHS | {v:content.get()}"
+  },
+  "{v:content.info()}": {
+    "prefix": "v:content.info()",
+    "body": [
+      "v:content.info()"
+    ],
+    "description": "TYPO3 VHS | {v:content.info()}"
+  },
+  "{v:content.random.get()}": {
+    "prefix": "v:content.random.get()",
+    "body": [
+      "v:content.random.get()"
+    ],
+    "description": "TYPO3 VHS | {v:content.random.get()}"
+  },
+  "{v:content.random.render()}": {
+    "prefix": "v:content.random.render()",
+    "body": [
+      "v:content.random.render()"
+    ],
+    "description": "TYPO3 VHS | {v:content.random.render()}"
+  },
+  "{v:content.render()}": {
+    "prefix": "v:content.render()",
+    "body": [
+      "v:content.render(column:$1, pageUid:$2, contentUids:$3)"
+    ],
+    "description": "TYPO3 VHS | {v:content.render()}"
+  },
+  "{v:content.resources()}": {
+    "prefix": "v:content.resources()",
+    "body": [
+      "v:content.resources()"
+    ],
+    "description": "TYPO3 VHS | {v:content.resources()}"
+  },
+  "{v:content.resources.fal()}": {
+    "prefix": "v:content.resources.fal()",
+    "body": [
+      "v:content.resources.fal()"
+    ],
+    "description": "TYPO3 VHS | {v:content.resources.fal()}"
+  },
+  "{v:context.get()}": {
+    "prefix": "v:context.get()",
+    "body": [
+      "v:context.get()"
+    ],
+    "description": "TYPO3 VHS | {v:context.get()}"
+  },
+  "{v:count.bytes()}": {
+    "prefix": "v:count.bytes()",
+    "body": [
+      "v:count.bytes()"
+    ],
+    "description": "TYPO3 VHS | {v:count.bytes()}"
+  },
+  "{v:count.lines()}": {
+    "prefix": "v:count.lines()",
+    "body": [
+      "v:count.lines()"
+    ],
+    "description": "TYPO3 VHS | {v:count.lines()}"
+  },
+  "{v:count.substring()}": {
+    "prefix": "v:count.substring()",
+    "body": [
+      "v:count.substring(string:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:count.substring()}"
+  },
+  "{v:count.words()}": {
+    "prefix": "v:count.words()",
+    "body": [
+      "v:count.words()"
+    ],
+    "description": "TYPO3 VHS | {v:count.words()}"
+  },
+  "{v:debug()}": {
+    "prefix": "v:debug()",
+    "body": [
+      "v:debug()"
+    ],
+    "description": "TYPO3 VHS | {v:debug()}"
+  },
+  "{v:extension.icon()}": {
+    "prefix": "v:extension.icon()",
+    "body": [
+      "v:extension.icon()"
+    ],
+    "description": "TYPO3 VHS | {v:extension.icon()}"
+  },
+  "{v:extension.loaded()}": {
+    "prefix": "v:extension.loaded()",
+    "body": [
+      "v:extension.loaded(extensionName:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:extension.loaded()}"
+  },
+  "{v:extension.path.absolute()}": {
+    "prefix": "v:extension.path.absolute()",
+    "body": [
+      "v:extension.path.absolute()"
+    ],
+    "description": "TYPO3 VHS | {v:extension.path.absolute()}"
+  },
+  "{v:extension.path.relative()}": {
+    "prefix": "v:extension.path.relative()",
+    "body": [
+      "v:extension.path.relative()"
+    ],
+    "description": "TYPO3 VHS | {v:extension.path.relative()}"
+  },
+  "{v:extension.path.resources()}": {
+    "prefix": "v:extension.path.resources()",
+    "body": [
+      "v:extension.path.resources()"
+    ],
+    "description": "TYPO3 VHS | {v:extension.path.resources()}"
+  },
+  "{v:extension.path.siteRelative()}": {
+    "prefix": "v:extension.path.siteRelative()",
+    "body": [
+      "v:extension.path.siteRelative()"
+    ],
+    "description": "TYPO3 VHS | {v:extension.path.siteRelative()}"
+  },
+  "{v:form.fieldName()}": {
+    "prefix": "v:form.fieldName()",
+    "body": [
+      "v:form.fieldName()"
+    ],
+    "description": "TYPO3 VHS | {v:form.fieldName()}"
+  },
+  "{v:form.select()}": {
+    "prefix": "v:form.select()",
+    "body": [
+      "v:form.select()"
+    ],
+    "description": "TYPO3 VHS | {v:form.select()}"
+  },
+  "{v:form.select.optgroup()}": {
+    "prefix": "v:form.select.optgroup()",
+    "body": [
+      "v:form.select.optgroup()"
+    ],
+    "description": "TYPO3 VHS | {v:form.select.optgroup()}"
+  },
+  "{v:form.select.option()}": {
+    "prefix": "v:form.select.option()",
+    "body": [
+      "v:form.select.option()"
+    ],
+    "description": "TYPO3 VHS | {v:form.select.option()}"
+  },
+  "{v:format.append()}": {
+    "prefix": "v:format.append()",
+    "body": [
+      "v:format.append()"
+    ],
+    "description": "TYPO3 VHS | {v:format.append()}"
+  },
+  "{v:format.case()}": {
+    "prefix": "v:format.case()",
+    "body": [
+      "v:format.case()"
+    ],
+    "description": "TYPO3 VHS | {v:format.case()}"
+  },
+  "{v:format.dateRange()}": {
+    "prefix": "v:format.dateRange()",
+    "body": [
+      "v:format.dateRange()"
+    ],
+    "description": "TYPO3 VHS | {v:format.dateRange()}"
+  },
+  "{v:format.eliminate()}": {
+    "prefix": "v:format.eliminate()",
+    "body": [
+      "v:format.eliminate()"
+    ],
+    "description": "TYPO3 VHS | {v:format.eliminate()}"
+  },
+  "{v:format.hash()}": {
+    "prefix": "v:format.hash()",
+    "body": [
+      "v:format.hash()"
+    ],
+    "description": "TYPO3 VHS | {v:format.hash()}"
+  },
+  "{v:format.hide()}": {
+    "prefix": "v:format.hide()",
+    "body": [
+      "v:format.hide()"
+    ],
+    "description": "TYPO3 VHS | {v:format.hide()}"
+  },
+  "{v:format.json.decode()}": {
+    "prefix": "v:format.json.decode()",
+    "body": [
+      "v:format.json.decode()"
+    ],
+    "description": "TYPO3 VHS | {v:format.json.decode()}"
+  },
+  "{v:format.json.encode()}": {
+    "prefix": "v:format.json.encode()",
+    "body": [
+      "v:format.json.encode()"
+    ],
+    "description": "TYPO3 VHS | {v:format.json.encode()}"
+  },
+  "{v:format.markdown()}": {
+    "prefix": "v:format.markdown()",
+    "body": [
+      "v:format.markdown()"
+    ],
+    "description": "TYPO3 VHS | {v:format.markdown()}"
+  },
+  "{v:format.placeholder.image()}": {
+    "prefix": "v:format.placeholder.image()",
+    "body": [
+      "v:format.placeholder.image()"
+    ],
+    "description": "TYPO3 VHS | {v:format.placeholder.image()}"
+  },
+  "{v:format.placeholder.lipsum()}": {
+    "prefix": "v:format.placeholder.lipsum()",
+    "body": [
+      "v:format.placeholder.lipsum()"
+    ],
+    "description": "TYPO3 VHS | {v:format.placeholder.lipsum()}"
+  },
+  "{v:format.plaintext()}": {
+    "prefix": "v:format.plaintext()",
+    "body": [
+      "v:format.plaintext()"
+    ],
+    "description": "TYPO3 VHS | {v:format.plaintext()}"
+  },
+  "{v:format.pregReplace()}": {
+    "prefix": "v:format.pregReplace()",
+    "body": [
+      "v:format.pregReplace(pattern:$1, replacement:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:format.pregReplace()}"
+  },
+  "{v:format.prepend()}": {
+    "prefix": "v:format.prepend()",
+    "body": [
+      "v:format.prepend()"
+    ],
+    "description": "TYPO3 VHS | {v:format.prepend()}"
+  },
+  "{v:format.removeXss()}": {
+    "prefix": "v:format.removeXss()",
+    "body": [
+      "v:format.removeXss()"
+    ],
+    "description": "TYPO3 VHS | {v:format.removeXss()}"
+  },
+  "{v:format.replace()}": {
+    "prefix": "v:format.replace()",
+    "body": [
+      "v:format.replace(substring:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:format.replace()}"
+  },
+  "{v:format.sanitizeString()}": {
+    "prefix": "v:format.sanitizeString()",
+    "body": [
+      "v:format.sanitizeString()"
+    ],
+    "description": "TYPO3 VHS | {v:format.sanitizeString()}"
+  },
+  "{v:format.substring()}": {
+    "prefix": "v:format.substring()",
+    "body": [
+      "v:format.substring()"
+    ],
+    "description": "TYPO3 VHS | {v:format.substring()}"
+  },
+  "{v:format.tidy()}": {
+    "prefix": "v:format.tidy()",
+    "body": [
+      "v:format.tidy()"
+    ],
+    "description": "TYPO3 VHS | {v:format.tidy()}"
+  },
+  "{v:format.trim()}": {
+    "prefix": "v:format.trim()",
+    "body": [
+      "v:format.trim()"
+    ],
+    "description": "TYPO3 VHS | {v:format.trim()}"
+  },
+  "{v:format.url.decode()}": {
+    "prefix": "v:format.url.decode()",
+    "body": [
+      "v:format.url.decode()"
+    ],
+    "description": "TYPO3 VHS | {v:format.url.decode()}"
+  },
+  "{v:format.url.encode()}": {
+    "prefix": "v:format.url.encode()",
+    "body": [
+      "v:format.url.encode()"
+    ],
+    "description": "TYPO3 VHS | {v:format.url.encode()}"
+  },
+  "{v:format.url.sanitizeString()}": {
+    "prefix": "v:format.url.sanitizeString()",
+    "body": [
+      "v:format.url.sanitizeString()"
+    ],
+    "description": "TYPO3 VHS | {v:format.url.sanitizeString()}"
+  },
+  "{v:format.wordWrap()}": {
+    "prefix": "v:format.wordWrap()",
+    "body": [
+      "v:format.wordWrap()"
+    ],
+    "description": "TYPO3 VHS | {v:format.wordWrap()}"
+  },
+  "{v:if()}": {
+    "prefix": "v:if()",
+    "body": [
+      "v:if(stack:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:if()}"
+  },
+  "{v:iterator.chunk()}": {
+    "prefix": "v:iterator.chunk()",
+    "body": [
+      "v:iterator.chunk(count:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.chunk()}"
+  },
+  "{v:iterator.column()}": {
+    "prefix": "v:iterator.column()",
+    "body": [
+      "v:iterator.column()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.column()}"
+  },
+  "{v:iterator.diff()}": {
+    "prefix": "v:iterator.diff()",
+    "body": [
+      "v:iterator.diff(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.diff()}"
+  },
+  "{v:iterator.explode()}": {
+    "prefix": "v:iterator.explode()",
+    "body": [
+      "v:iterator.explode()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.explode()}"
+  },
+  "{v:iterator.extract()}": {
+    "prefix": "v:iterator.extract()",
+    "body": [
+      "v:iterator.extract(key:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.extract()}"
+  },
+  "{v:iterator.filter()}": {
+    "prefix": "v:iterator.filter()",
+    "body": [
+      "v:iterator.filter()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.filter()}"
+  },
+  "{v:iterator.first()}": {
+    "prefix": "v:iterator.first()",
+    "body": [
+      "v:iterator.first()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.first()}"
+  },
+  "{v:iterator.for()}": {
+    "prefix": "v:iterator.for()",
+    "body": [
+      "v:iterator.for(to:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.for()}"
+  },
+  "{v:iterator.implode()}": {
+    "prefix": "v:iterator.implode()",
+    "body": [
+      "v:iterator.implode()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.implode()}"
+  },
+  "{v:iterator.indexOf()}": {
+    "prefix": "v:iterator.indexOf()",
+    "body": [
+      "v:iterator.indexOf(needle:$1, haystack:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.indexOf()}"
+  },
+  "{v:iterator.intersect()}": {
+    "prefix": "v:iterator.intersect()",
+    "body": [
+      "v:iterator.intersect(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.intersect()}"
+  },
+  "{v:iterator.keys()}": {
+    "prefix": "v:iterator.keys()",
+    "body": [
+      "v:iterator.keys()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.keys()}"
+  },
+  "{v:iterator.last()}": {
+    "prefix": "v:iterator.last()",
+    "body": [
+      "v:iterator.last()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.last()}"
+  },
+  "{v:iterator.loop()}": {
+    "prefix": "v:iterator.loop()",
+    "body": [
+      "v:iterator.loop(count:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.loop()}"
+  },
+  "{v:iterator.merge()}": {
+    "prefix": "v:iterator.merge()",
+    "body": [
+      "v:iterator.merge()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.merge()}"
+  },
+  "{v:iterator.next()}": {
+    "prefix": "v:iterator.next()",
+    "body": [
+      "v:iterator.next(needle:$1, haystack:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.next()}"
+  },
+  "{v:iterator.pop()}": {
+    "prefix": "v:iterator.pop()",
+    "body": [
+      "v:iterator.pop()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.pop()}"
+  },
+  "{v:iterator.previous()}": {
+    "prefix": "v:iterator.previous()",
+    "body": [
+      "v:iterator.previous(needle:$1, haystack:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.previous()}"
+  },
+  "{v:iterator.push()}": {
+    "prefix": "v:iterator.push()",
+    "body": [
+      "v:iterator.push(add:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.push()}"
+  },
+  "{v:iterator.random()}": {
+    "prefix": "v:iterator.random()",
+    "body": [
+      "v:iterator.random()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.random()}"
+  },
+  "{v:iterator.range()}": {
+    "prefix": "v:iterator.range()",
+    "body": [
+      "v:iterator.range(high:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.range()}"
+  },
+  "{v:iterator.reverse()}": {
+    "prefix": "v:iterator.reverse()",
+    "body": [
+      "v:iterator.reverse()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.reverse()}"
+  },
+  "{v:iterator.shift()}": {
+    "prefix": "v:iterator.shift()",
+    "body": [
+      "v:iterator.shift()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.shift()}"
+  },
+  "{v:iterator.slice()}": {
+    "prefix": "v:iterator.slice()",
+    "body": [
+      "v:iterator.slice()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.slice()}"
+  },
+  "{v:iterator.sort()}": {
+    "prefix": "v:iterator.sort()",
+    "body": [
+      "v:iterator.sort()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.sort()}"
+  },
+  "{v:iterator.split()}": {
+    "prefix": "v:iterator.split()",
+    "body": [
+      "v:iterator.split()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.split()}"
+  },
+  "{v:iterator.unique()}": {
+    "prefix": "v:iterator.unique()",
+    "body": [
+      "v:iterator.unique()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.unique()}"
+  },
+  "{v:iterator.values()}": {
+    "prefix": "v:iterator.values()",
+    "body": [
+      "v:iterator.values()"
+    ],
+    "description": "TYPO3 VHS | {v:iterator.values()}"
+  },
+  "{v:l()}": {
+    "prefix": "v:l()",
+    "body": [
+      "v:l()"
+    ],
+    "description": "TYPO3 VHS | {v:l()}"
+  },
+  "{v:link.typolink()}": {
+    "prefix": "v:link.typolink()",
+    "body": [
+      "v:link.typolink(configuration:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:link.typolink()}"
+  },
+  "{v:math.average()}": {
+    "prefix": "v:math.average()",
+    "body": [
+      "v:math.average()"
+    ],
+    "description": "TYPO3 VHS | {v:math.average()}"
+  },
+  "{v:math.ceil()}": {
+    "prefix": "v:math.ceil()",
+    "body": [
+      "v:math.ceil()"
+    ],
+    "description": "TYPO3 VHS | {v:math.ceil()}"
+  },
+  "{v:math.cube()}": {
+    "prefix": "v:math.cube()",
+    "body": [
+      "v:math.cube()"
+    ],
+    "description": "TYPO3 VHS | {v:math.cube()}"
+  },
+  "{v:math.cubicRoot()}": {
+    "prefix": "v:math.cubicRoot()",
+    "body": [
+      "v:math.cubicRoot()"
+    ],
+    "description": "TYPO3 VHS | {v:math.cubicRoot()}"
+  },
+  "{v:math.division()}": {
+    "prefix": "v:math.division()",
+    "body": [
+      "v:math.division(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:math.division()}"
+  },
+  "{v:math.floor()}": {
+    "prefix": "v:math.floor()",
+    "body": [
+      "v:math.floor()"
+    ],
+    "description": "TYPO3 VHS | {v:math.floor()}"
+  },
+  "{v:math.maximum()}": {
+    "prefix": "v:math.maximum()",
+    "body": [
+      "v:math.maximum()"
+    ],
+    "description": "TYPO3 VHS | {v:math.maximum()}"
+  },
+  "{v:math.median()}": {
+    "prefix": "v:math.median()",
+    "body": [
+      "v:math.median()"
+    ],
+    "description": "TYPO3 VHS | {v:math.median()}"
+  },
+  "{v:math.minimum()}": {
+    "prefix": "v:math.minimum()",
+    "body": [
+      "v:math.minimum()"
+    ],
+    "description": "TYPO3 VHS | {v:math.minimum()}"
+  },
+  "{v:math.modulo()}": {
+    "prefix": "v:math.modulo()",
+    "body": [
+      "v:math.modulo(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:math.modulo()}"
+  },
+  "{v:math.power()}": {
+    "prefix": "v:math.power()",
+    "body": [
+      "v:math.power(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:math.power()}"
+  },
+  "{v:math.product()}": {
+    "prefix": "v:math.product()",
+    "body": [
+      "v:math.product(b:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:math.product()}"
+  },
+  "{v:math.range()}": {
+    "prefix": "v:math.range()",
+    "body": [
+      "v:math.range()"
+    ],
+    "description": "TYPO3 VHS | {v:math.range()}"
+  },
+  "{v:math.round()}": {
+    "prefix": "v:math.round()",
+    "body": [
+      "v:math.round()"
+    ],
+    "description": "TYPO3 VHS | {v:math.round()}"
+  },
+  "{v:math.squareRoot()}": {
+    "prefix": "v:math.squareRoot()",
+    "body": [
+      "v:math.squareRoot()"
+    ],
+    "description": "TYPO3 VHS | {v:math.squareRoot()}"
+  },
+  "{v:math.square()}": {
+    "prefix": "v:math.square()",
+    "body": [
+      "v:math.square()"
+    ],
+    "description": "TYPO3 VHS | {v:math.square()}"
+  },
+  "{v:math.subtract()}": {
+    "prefix": "v:math.subtract()",
+    "body": [
+      "v:math.subtract()"
+    ],
+    "description": "TYPO3 VHS | {v:math.subtract()}"
+  },
+  "{v:math.sum()}": {
+    "prefix": "v:math.sum()",
+    "body": [
+      "v:math.sum()"
+    ],
+    "description": "TYPO3 VHS | {v:math.sum()}"
+  },
+  "{v:media.audio()}": {
+    "prefix": "v:media.audio()",
+    "body": [
+      "v:media.audio(src:$1, width:$2, height:$3)"
+    ],
+    "description": "TYPO3 VHS | {v:media.audio()}"
+  },
+  "{v:media.exists()}": {
+    "prefix": "v:media.exists()",
+    "body": [
+      "v:media.exists()"
+    ],
+    "description": "TYPO3 VHS | {v:media.exists()}"
+  },
+  "{v:media.extension()}": {
+    "prefix": "v:media.extension()",
+    "body": [
+      "v:media.extension()"
+    ],
+    "description": "TYPO3 VHS | {v:media.extension()}"
+  },
+  "{v:media.files()}": {
+    "prefix": "v:media.files()",
+    "body": [
+      "v:media.files()"
+    ],
+    "description": "TYPO3 VHS | {v:media.files()}"
+  },
+  "{v:media.gravatar()}": {
+    "prefix": "v:media.gravatar()",
+    "body": [
+      "v:media.gravatar(email:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.gravatar()}"
+  },
+  "{v:media.image()}": {
+    "prefix": "v:media.image()",
+    "body": [
+      "v:media.image(src:$1, alt:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:media.image()}"
+  },
+  "{v:media.image.height()}": {
+    "prefix": "v:media.image.height()",
+    "body": [
+      "v:media.image.height(src:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.image.height()}"
+  },
+  "{v:media.image.mimetype()}": {
+    "prefix": "v:media.image.mimetype()",
+    "body": [
+      "v:media.image.mimetype(src:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.image.mimetype()}"
+  },
+  "{v:media.image.width()}": {
+    "prefix": "v:media.image.width()",
+    "body": [
+      "v:media.image.width(src:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.image.width()}"
+  },
+  "{v:media.pdfThumbnail()}": {
+    "prefix": "v:media.pdfThumbnail()",
+    "body": [
+      "v:media.pdfThumbnail(src:$1, alt:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:media.pdfThumbnail()}"
+  },
+  "{v:media.picture()}": {
+    "prefix": "v:media.picture()",
+    "body": [
+      "v:media.picture(src:$1, alt:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:media.picture()}"
+  },
+  "{v:media.size()}": {
+    "prefix": "v:media.size()",
+    "body": [
+      "v:media.size()"
+    ],
+    "description": "TYPO3 VHS | {v:media.size()}"
+  },
+  "{v:media.source()}": {
+    "prefix": "v:media.source()",
+    "body": [
+      "v:media.source()"
+    ],
+    "description": "TYPO3 VHS | {v:media.source()}"
+  },
+  "{v:media.spotify()}": {
+    "prefix": "v:media.spotify()",
+    "body": [
+      "v:media.spotify(spotifyUri:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.spotify()}"
+  },
+  "{v:media.video()}": {
+    "prefix": "v:media.video()",
+    "body": [
+      "v:media.video(src:$1, width:$2, height:$3)"
+    ],
+    "description": "TYPO3 VHS | {v:media.video()}"
+  },
+  "{v:media.vimeo()}": {
+    "prefix": "v:media.vimeo()",
+    "body": [
+      "v:media.vimeo(videoId:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.vimeo()}"
+  },
+  "{v:media.youtube()}": {
+    "prefix": "v:media.youtube()",
+    "body": [
+      "v:media.youtube(videoId:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:media.youtube()}"
+  },
+  "{v:menu()}": {
+    "prefix": "v:menu()",
+    "body": [
+      "v:menu()"
+    ],
+    "description": "TYPO3 VHS | {v:menu()}"
+  },
+  "{v:menu.browse()}": {
+    "prefix": "v:menu.browse()",
+    "body": [
+      "v:menu.browse()"
+    ],
+    "description": "TYPO3 VHS | {v:menu.browse()}"
+  },
+  "{v:menu.deferred()}": {
+    "prefix": "v:menu.deferred()",
+    "body": [
+      "v:menu.deferred()"
+    ],
+    "description": "TYPO3 VHS | {v:menu.deferred()}"
+  },
+  "{v:menu.directory()}": {
+    "prefix": "v:menu.directory()",
+    "body": [
+      "v:menu.directory(pages:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:menu.directory()}"
+  },
+  "{v:menu.list()}": {
+    "prefix": "v:menu.list()",
+    "body": [
+      "v:menu.list(pages:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:menu.list()}"
+  },
+  "{v:menu.sub()}": {
+    "prefix": "v:menu.sub()",
+    "body": [
+      "v:menu.sub(pageUid:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:menu.sub()}"
+  },
+  "{v:once.cookie()}": {
+    "prefix": "v:once.cookie()",
+    "body": [
+      "v:once.cookie()"
+    ],
+    "description": "TYPO3 VHS | {v:once.cookie()}"
+  },
+  "{v:once.instance()}": {
+    "prefix": "v:once.instance()",
+    "body": [
+      "v:once.instance()"
+    ],
+    "description": "TYPO3 VHS | {v:once.instance()}"
+  },
+  "{v:once.session()}": {
+    "prefix": "v:once.session()",
+    "body": [
+      "v:once.session()"
+    ],
+    "description": "TYPO3 VHS | {v:once.session()}"
+  },
+  "{v:once.standard()}": {
+    "prefix": "v:once.standard()",
+    "body": [
+      "v:once.standard()"
+    ],
+    "description": "TYPO3 VHS | {v:once.standard()}"
+  },
+  "{v:or()}": {
+    "prefix": "v:or()",
+    "body": [
+      "v:or()"
+    ],
+    "description": "TYPO3 VHS | {v:or()}"
+  },
+  "{v:page.absoluteUrl()}": {
+    "prefix": "v:page.absoluteUrl()",
+    "body": [
+      "v:page.absoluteUrl()"
+    ],
+    "description": "TYPO3 VHS | {v:page.absoluteUrl()}"
+  },
+  "{v:page.breadCrumb()}": {
+    "prefix": "v:page.breadCrumb()",
+    "body": [
+      "v:page.breadCrumb()"
+    ],
+    "description": "TYPO3 VHS | {v:page.breadCrumb()}"
+  },
+  "{v:page.footer()}": {
+    "prefix": "v:page.footer()",
+    "body": [
+      "v:page.footer()"
+    ],
+    "description": "TYPO3 VHS | {v:page.footer()}"
+  },
+  "{v:page.header()}": {
+    "prefix": "v:page.header()",
+    "body": [
+      "v:page.header()"
+    ],
+    "description": "TYPO3 VHS | {v:page.header()}"
+  },
+  "{v:page.header.alternate()}": {
+    "prefix": "v:page.header.alternate()",
+    "body": [
+      "v:page.header.alternate(languages:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:page.header.alternate()}"
+  },
+  "{v:page.header.canonical()}": {
+    "prefix": "v:page.header.canonical()",
+    "body": [
+      "v:page.header.canonical()"
+    ],
+    "description": "TYPO3 VHS | {v:page.header.canonical()}"
+  },
+  "{v:page.header.link()}": {
+    "prefix": "v:page.header.link()",
+    "body": [
+      "v:page.header.link()"
+    ],
+    "description": "TYPO3 VHS | {v:page.header.link()}"
+  },
+  "{v:page.header.meta()}": {
+    "prefix": "v:page.header.meta()",
+    "body": [
+      "v:page.header.meta()"
+    ],
+    "description": "TYPO3 VHS | {v:page.header.meta()}"
+  },
+  "{v:page.header.title()}": {
+    "prefix": "v:page.header.title()",
+    "body": [
+      "v:page.header.title()"
+    ],
+    "description": "TYPO3 VHS | {v:page.header.title()}"
+  },
+  "{v:page.info()}": {
+    "prefix": "v:page.info()",
+    "body": [
+      "v:page.info()"
+    ],
+    "description": "TYPO3 VHS | {v:page.info()}"
+  },
+  "{v:page.languageMenu()}": {
+    "prefix": "v:page.languageMenu()",
+    "body": [
+      "v:page.languageMenu()"
+    ],
+    "description": "TYPO3 VHS | {v:page.languageMenu()}"
+  },
+  "{v:page.language()}": {
+    "prefix": "v:page.language()",
+    "body": [
+      "v:page.language()"
+    ],
+    "description": "TYPO3 VHS | {v:page.language()}"
+  },
+  "{v:page.link()}": {
+    "prefix": "v:page.link()",
+    "body": [
+      "v:page.link()"
+    ],
+    "description": "TYPO3 VHS | {v:page.link()}"
+  },
+  "{v:page.menu()}": {
+    "prefix": "v:page.menu()",
+    "body": [
+      "v:page.menu()"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu()}"
+  },
+  "{v:page.menu.browse()}": {
+    "prefix": "v:page.menu.browse()",
+    "body": [
+      "v:page.menu.browse()"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu.browse()}"
+  },
+  "{v:page.menu.deferred()}": {
+    "prefix": "v:page.menu.deferred()",
+    "body": [
+      "v:page.menu.deferred()"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu.deferred()}"
+  },
+  "{v:page.menu.directory()}": {
+    "prefix": "v:page.menu.directory()",
+    "body": [
+      "v:page.menu.directory(pages:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu.directory()}"
+  },
+  "{v:page.menu.list()}": {
+    "prefix": "v:page.menu.list()",
+    "body": [
+      "v:page.menu.list(pages:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu.list()}"
+  },
+  "{v:page.menu.sub()}": {
+    "prefix": "v:page.menu.sub()",
+    "body": [
+      "v:page.menu.sub(pageUid:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:page.menu.sub()}"
+  },
+  "{v:page.resources()}": {
+    "prefix": "v:page.resources()",
+    "body": [
+      "v:page.resources()"
+    ],
+    "description": "TYPO3 VHS | {v:page.resources()}"
+  },
+  "{v:page.resources.fal()}": {
+    "prefix": "v:page.resources.fal()",
+    "body": [
+      "v:page.resources.fal()"
+    ],
+    "description": "TYPO3 VHS | {v:page.resources.fal()}"
+  },
+  "{v:page.rootline()}": {
+    "prefix": "v:page.rootline()",
+    "body": [
+      "v:page.rootline()"
+    ],
+    "description": "TYPO3 VHS | {v:page.rootline()}"
+  },
+  "{v:page.staticPrefix()}": {
+    "prefix": "v:page.staticPrefix()",
+    "body": [
+      "v:page.staticPrefix()"
+    ],
+    "description": "TYPO3 VHS | {v:page.staticPrefix()}"
+  },
+  "{v:random.number()}": {
+    "prefix": "v:random.number()",
+    "body": [
+      "v:random.number()"
+    ],
+    "description": "TYPO3 VHS | {v:random.number()}"
+  },
+  "{v:random.string()}": {
+    "prefix": "v:random.string()",
+    "body": [
+      "v:random.string()"
+    ],
+    "description": "TYPO3 VHS | {v:random.string()}"
+  },
+  "{v:render.ascii()}": {
+    "prefix": "v:render.ascii()",
+    "body": [
+      "v:render.ascii()"
+    ],
+    "description": "TYPO3 VHS | {v:render.ascii()}"
+  },
+  "{v:render.cache()}": {
+    "prefix": "v:render.cache()",
+    "body": [
+      "v:render.cache(identity:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:render.cache()}"
+  },
+  "{v:render.inline()}": {
+    "prefix": "v:render.inline()",
+    "body": [
+      "v:render.inline()"
+    ],
+    "description": "TYPO3 VHS | {v:render.inline()}"
+  },
+  "{v:render.record()}": {
+    "prefix": "v:render.record()",
+    "body": [
+      "v:render.record()"
+    ],
+    "description": "TYPO3 VHS | {v:render.record()}"
+  },
+  "{v:render.request()}": {
+    "prefix": "v:render.request()",
+    "body": [
+      "v:render.request()"
+    ],
+    "description": "TYPO3 VHS | {v:render.request()}"
+  },
+  "{v:render.template()}": {
+    "prefix": "v:render.template()",
+    "body": [
+      "v:render.template()"
+    ],
+    "description": "TYPO3 VHS | {v:render.template()}"
+  },
+  "{v:render.uncache()}": {
+    "prefix": "v:render.uncache()",
+    "body": [
+      "v:render.uncache(partial:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:render.uncache()}"
+  },
+  "{v:resource.collection()}": {
+    "prefix": "v:resource.collection()",
+    "body": [
+      "v:resource.collection(uid:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:resource.collection()}"
+  },
+  "{v:resource.file()}": {
+    "prefix": "v:resource.file()",
+    "body": [
+      "v:resource.file()"
+    ],
+    "description": "TYPO3 VHS | {v:resource.file()}"
+  },
+  "{v:resource.image()}": {
+    "prefix": "v:resource.image()",
+    "body": [
+      "v:resource.image()"
+    ],
+    "description": "TYPO3 VHS | {v:resource.image()}"
+  },
+  "{v:resource.language()}": {
+    "prefix": "v:resource.language()",
+    "body": [
+      "v:resource.language()"
+    ],
+    "description": "TYPO3 VHS | {v:resource.language()}"
+  },
+  "{v:resource.record()}": {
+    "prefix": "v:resource.record()",
+    "body": [
+      "v:resource.record(table:$1, field:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:resource.record()}"
+  },
+  "{v:resource.record.fal()}": {
+    "prefix": "v:resource.record.fal()",
+    "body": [
+      "v:resource.record.fal(table:$1, field:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:resource.record.fal()}"
+  },
+  "{v:security.allow()}": {
+    "prefix": "v:security.allow()",
+    "body": [
+      "v:security.allow()"
+    ],
+    "description": "TYPO3 VHS | {v:security.allow()}"
+  },
+  "{v:security.deny()}": {
+    "prefix": "v:security.deny()",
+    "body": [
+      "v:security.deny()"
+    ],
+    "description": "TYPO3 VHS | {v:security.deny()}"
+  },
+  "{v:site.name()}": {
+    "prefix": "v:site.name()",
+    "body": [
+      "v:site.name()"
+    ],
+    "description": "TYPO3 VHS | {v:site.name()}"
+  },
+  "{v:site.url()}": {
+    "prefix": "v:site.url()",
+    "body": [
+      "v:site.url()"
+    ],
+    "description": "TYPO3 VHS | {v:site.url()}"
+  },
+  "{v:system.dateTime()}": {
+    "prefix": "v:system.dateTime()",
+    "body": [
+      "v:system.dateTime()"
+    ],
+    "description": "TYPO3 VHS | {v:system.dateTime()}"
+  },
+  "{v:system.timestamp()}": {
+    "prefix": "v:system.timestamp()",
+    "body": [
+      "v:system.timestamp()"
+    ],
+    "description": "TYPO3 VHS | {v:system.timestamp()}"
+  },
+  "{v:system.uniqId()}": {
+    "prefix": "v:system.uniqId()",
+    "body": [
+      "v:system.uniqId()"
+    ],
+    "description": "TYPO3 VHS | {v:system.uniqId()}"
+  },
+  "{v:tag()}": {
+    "prefix": "v:tag()",
+    "body": [
+      "v:tag(name:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:tag()}"
+  },
+  "{v:try()}": {
+    "prefix": "v:try()",
+    "body": [
+      "v:try()"
+    ],
+    "description": "TYPO3 VHS | {v:try()}"
+  },
+  "{v:unless()}": {
+    "prefix": "v:unless()",
+    "body": [
+      "v:unless()"
+    ],
+    "description": "TYPO3 VHS | {v:unless()}"
+  },
+  "{v:uri.gravatar()}": {
+    "prefix": "v:uri.gravatar()",
+    "body": [
+      "v:uri.gravatar(email:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:uri.gravatar()}"
+  },
+  "{v:uri.image()}": {
+    "prefix": "v:uri.image()",
+    "body": [
+      "v:uri.image(src:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:uri.image()}"
+  },
+  "{v:uri.request()}": {
+    "prefix": "v:uri.request()",
+    "body": [
+      "v:uri.request()"
+    ],
+    "description": "TYPO3 VHS | {v:uri.request()}"
+  },
+  "{v:uri.typolink()}": {
+    "prefix": "v:uri.typolink()",
+    "body": [
+      "v:uri.typolink(configuration:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:uri.typolink()}"
+  },
+  "{v:variable.convert()}": {
+    "prefix": "v:variable.convert()",
+    "body": [
+      "v:variable.convert(type:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.convert()}"
+  },
+  "{v:variable.extensionConfiguration()}": {
+    "prefix": "v:variable.extensionConfiguration()",
+    "body": [
+      "v:variable.extensionConfiguration()"
+    ],
+    "description": "TYPO3 VHS | {v:variable.extensionConfiguration()}"
+  },
+  "{v:variable.get()}": {
+    "prefix": "v:variable.get()",
+    "body": [
+      "v:variable.get(name:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.get()}"
+  },
+  "{v:variable.pregMatch()}": {
+    "prefix": "v:variable.pregMatch()",
+    "body": [
+      "v:variable.pregMatch(pattern:$1, subject:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.pregMatch()}"
+  },
+  "{v:variable.register.get()}": {
+    "prefix": "v:variable.register.get()",
+    "body": [
+      "v:variable.register.get()"
+    ],
+    "description": "TYPO3 VHS | {v:variable.register.get()}"
+  },
+  "{v:variable.register.set()}": {
+    "prefix": "v:variable.register.set()",
+    "body": [
+      "v:variable.register.set(name:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.register.set()}"
+  },
+  "{v:variable.set()}": {
+    "prefix": "v:variable.set()",
+    "body": [
+      "v:variable.set(value:$1, name:$2)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.set()}"
+  },
+  "{v:variable.typoscript()}": {
+    "prefix": "v:variable.typoscript()",
+    "body": [
+      "v:variable.typoscript()"
+    ],
+    "description": "TYPO3 VHS | {v:variable.typoscript()}"
+  },
+  "{v:variable.unset()}": {
+    "prefix": "v:variable.unset()",
+    "body": [
+      "v:variable.unset(name:$1)"
+    ],
+    "description": "TYPO3 VHS | {v:variable.unset()}"
+  }
+}
